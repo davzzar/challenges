@@ -1,0 +1,1 @@
+print([{(True, False) : "Fizz", (False, True) : "Buzz", (True, True) : "FizzBuzz", (False, False) : False}[j,k] or i for (j,k,i) in [(not i%3, not i%5, i) for i in range(1,101)]])
